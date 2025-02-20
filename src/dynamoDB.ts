@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { CreateTableCommand, DynamoDBClient } from "@aws-sdk/client-dynamodb";
 
 const client = new DynamoDBClient({});
